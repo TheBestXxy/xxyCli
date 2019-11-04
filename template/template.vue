@@ -1,12 +1,12 @@
 <template>
-    <div>
-        demo
-    </div>
+    <transition>
+        <div>componentName</div>
+    </transition>
 </template>
 
 <script>
 export default {
-    name: '',
+    name: 'componentName',
     components: {
 
     },
